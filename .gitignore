@@ -1,0 +1,105 @@
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# ===== Python 缓存与字节码 =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+.Python
+build/
+dist/
+develop-eggs/
+eggs/
+*.egg-info/
+*.egg
+.eggs/
+
+# ===== 测试与类型检查缓存 =====
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# ===== 打包与安装 =====
+pip-wheel-metadata/
+*.whl
+
+# ===== 环境变量与密钥（切勿提交）=====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== 深度学习产物 =====
+# 模型权重与检查点
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.h5
+*.keras
+*.safetensors
+checkpoints/
+weights/
+
+# 训练日志与可视化
+runs/
+logs/
+*.log
+wandb/
+lightning_logs/
+tb_logs/
+events.out.tfevents.*
+
+# ===== 数据集（体积大，不入库）=====
+data/
+datasets/
+images/
+videos/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.npy
+*.npz
+*.pkl
+*.hdf5
+# 如需保留少量示例图片，用白名单覆盖，例如：
+# !docs/sample.png
+
+# ===== 编辑器与操作系统 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 临时文件 =====
+*.tmp
+*.bak
+tmp/
+temp/
